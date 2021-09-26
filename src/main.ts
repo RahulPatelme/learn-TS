@@ -55,3 +55,31 @@ let userUnion: UserInterface | null = null;
 type MaybeCompanyName = CompanyName | null;
 
 const mercedes: MaybeCompanyName = "AMG-GTR";
+
+// Void
+const doSomething = (): void => {
+  console.log("Do something");
+};
+
+// Any
+// Any type turns off TypeScript checks
+let car: any = 64;
+
+// Never
+const doSomethingNever = (): never => {
+  throw "never";
+};
+
+// Unknown
+let vAny: any = 21;
+let vUnknown: unknown = 21;
+
+let a1: string = vAny;
+// Error
+// let a2: string = vUnknown;
+
+// Type assertion
+let a2: string = vUnknown as string;
+
+let pageNumber: string = "1";
+let numericPageNumber: number = pageNumber as unknown as number;

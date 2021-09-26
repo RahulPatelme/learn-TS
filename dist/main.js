@@ -25,3 +25,24 @@ var errorMessage = null;
 var companyNames = ["McLaren", "Mercedes"];
 var userUnion = null;
 var mercedes = "AMG-GTR";
+// Void
+var doSomething = function () {
+    console.log("Do something");
+};
+// Any
+// Any type turns off TypeScript checks
+var car = 64;
+// Never
+var doSomethingNever = function () {
+    throw "never";
+};
+// Unknown
+var vAny = 21;
+var vUnknown = 21;
+var a1 = vAny;
+// Error
+// let a2: string = vUnknown;
+// Type assertion
+var a2 = vUnknown;
+var pageNumber = "1";
+var numericPageNumber = pageNumber;
