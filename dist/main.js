@@ -11,6 +11,10 @@ var user = {
     age: 22
 };
 var user2 = {
-    name: "Patel"
+    firstName: "Patel",
+    // age: 22,
+    getMessage: function () {
+        return "hi " + user2.firstName;
+    }
 };
-console.log(user2.name);
+console.log(user2.getMessage());
