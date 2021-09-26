@@ -14,13 +14,13 @@ const user: { name: string; age: number } = {
 };
 
 // Interface
-interface User {
+interface IUser {
   firstName: string;
   age?: number;
   getMessage(): string;
 }
 
-const user2: User = {
+const user2: IUser = {
   firstName: "Patel",
   // age: 22,
   getMessage() {
@@ -29,3 +29,17 @@ const user2: User = {
 };
 
 console.log(user2.getMessage());
+
+// Union operator
+let username: string = "Rahul";
+
+let pageName: string | number = 21;
+
+let errorMessage: string | null = null;
+
+interface UserInterface {
+  name: string;
+  surname: string;
+}
+
+let userUnion: UserInterface | null = null;

@@ -18,3 +18,8 @@ var user2 = {
     }
 };
 console.log(user2.getMessage());
+// Union operator
+var username = "Rahul";
+var pageName = 21;
+var errorMessage = null;
+var userUnion = null;
