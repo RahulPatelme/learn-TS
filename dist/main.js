@@ -24,3 +24,4 @@ var pageName = 21;
 var errorMessage = null;
 var companyNames = ["McLaren", "Mercedes"];
 var userUnion = null;
+var mercedes = "AMG-GTR";

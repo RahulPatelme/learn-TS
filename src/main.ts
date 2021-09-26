@@ -50,3 +50,8 @@ interface UserInterface {
 }
 
 let userUnion: UserInterface | null = null;
+
+// Union operator + type alias
+type MaybeCompanyName = CompanyName | null;
+
+const mercedes: MaybeCompanyName = "AMG-GTR";
