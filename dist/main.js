@@ -22,4 +22,5 @@ console.log(user2.getMessage());
 var username = "Rahul";
 var pageName = 21;
 var errorMessage = null;
+var companyNames = ["McLaren", "Mercedes"];
 var userUnion = null;

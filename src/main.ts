@@ -37,7 +37,14 @@ let pageName: string | number = 21;
 
 let errorMessage: string | null = null;
 
+// Type alias
+type ID = string;
+type CompanyName = string;
+
+const companyNames: CompanyName[] = ["McLaren", "Mercedes"];
+
 interface UserInterface {
+  id: ID;
   name: string;
   surname: string;
 }
